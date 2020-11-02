@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    <nav>
+        <header>
+            Todo App
+        </header>
+        <ul>
+           
+        </ul>
+    </nav>
+        
+        
+        <form>
+            <input autocomplete="off" class="todo-input" type="text" name="text">
+            <button type="submit" id="Submit_Button"><span>
+                <i class="far fa-plus-square"></i>
+            </span></button>
+            <div class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="Uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+            
+            <div class="todo-container">
+                <ul class="todo-list">
+
+                </ul>
+            </div>
+
+       
+        <script src="/script.js"></script>
+</body>
+</html>
